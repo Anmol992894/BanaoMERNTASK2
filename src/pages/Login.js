@@ -64,12 +64,11 @@ function Login() {
                 // Display error message if login fails
                 Swal.fire({
                     icon: 'error',
-                    title: error.response.data.error
+                    title: error
                 })
             })
     }
     const user = useSelector(state => state.userReducer);
-    console.log(user);
     useEffect(() => {
         // Simulate an API call
         setTimeout(() => {

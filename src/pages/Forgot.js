@@ -52,7 +52,7 @@ function Forgot() {
                 // Display error message if login fails
                 Swal.fire({
                     icon: 'error',
-                    title: error
+                    title: error.response.data.error
                 })
             })
     }

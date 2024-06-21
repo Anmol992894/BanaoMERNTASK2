@@ -164,7 +164,6 @@ const AllTweet = () => {
                             <div className='col-12 my-2' >
                                 <div className="card w-100 d-flex flex-column" >
                                     <div className='w-100 d-flex flex-row align-content-center'>
-                                        {/* <span className='pt-2 fw-bold ps-2' onClick={() => gotootherprofile(data.TweetedBy._id)}>{data.TweetedBy.UserName}</span> */}
                                         <span className='pt-2 ps-2'>{moment(data.createdAt).format('DD/MM/YYYY HH:MM')}</span>
                                         {data.TweetedBy == users._id ?
                                             <span className='text-end w-100 pt-3 pe-2'><i onClick={() => tweetdelete(data._id)} className="fs-5 text-warning fa-solid fa-trash"></i></span> : ""

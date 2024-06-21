@@ -171,7 +171,7 @@ const TweetdetailPage = () => {
                         <>
                             <div className="card w-100 d-flex flex-column" >
                                 <div className='w-100 d-flex flex-row align-content-center'>
-                                    <span className='pt-2 fw-bold ps-2'>{users.UserName}</span>
+                                    {/* <span className='pt-2 fw-bold ps-2'>{users.UserName}</span> */}
                                     <span className='pt-2 ps-2'>{moment(data.createdAt).format('DD/MM/YYYY HH:MM')}</span>
                                 </div>
                                 <div className='d-flex mt-3 flex-column align-items-center justify-content-center ps-3'>
